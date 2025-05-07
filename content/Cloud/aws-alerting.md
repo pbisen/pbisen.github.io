@@ -1,6 +1,6 @@
 # Building a Cross-Service AWS Alerting System on Slack
 
-At CRED, I built a comprehensive alerting system that monitors multiple AWS services and delivers actionable alerts through Slack. This post details how we designed and implemented a system that helps teams respond quickly to infrastructure issues.
+I built a comprehensive alerting system that monitors multiple AWS services and delivers actionable alerts through Slack. This post details how we designed and implemented a system that helps teams respond quickly to infrastructure issues.
 
 ## The Challenge
 
@@ -298,7 +298,7 @@ The alerting system delivered significant improvements:
 
 ## Conclusion
 
-Our AWS alerting system has transformed how we handle infrastructure issues at CRED. By combining intelligent alert processing with rich context and team-aware routing, we've created a system that helps teams respond to issues quickly and effectively.
+Our AWS alerting system has transformed how we handle infrastructure issues. By combining intelligent alert processing with rich context and team-aware routing, we've created a system that helps teams respond to issues quickly and effectively.
 
 ## Resources
 

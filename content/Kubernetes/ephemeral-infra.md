@@ -1,6 +1,6 @@
 # Managing Ephemeral Infrastructure in Kubernetes
 
-At CRED, I implemented a system for managing ephemeral infrastructure in Kubernetes, enabling efficient resource utilization for temporary workloads. This post details how we designed and implemented this system to optimize costs and improve resource efficiency.
+I implemented a system for managing ephemeral infrastructure in Kubernetes, enabling efficient resource utilization for temporary workloads. This post details how we designed and implemented this system to optimize costs and improve resource efficiency.
 
 ## The Challenge
 

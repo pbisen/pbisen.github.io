@@ -1,6 +1,6 @@
 # Cloud Computing and AWS
 
-Welcome to my Cloud Computing blog section! Here, I share insights from my experience working with AWS and cloud infrastructure at CRED, focusing on automation, infrastructure as code, and serverless architectures.
+Welcome to my Cloud Computing blog section! Here, I share insights from my experience working with AWS and cloud infrastructure, focusing on automation, infrastructure as code, and serverless architectures.
 
 ## Topics Covered
 - AWS Services and Best Practices

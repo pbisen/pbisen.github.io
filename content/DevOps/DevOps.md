@@ -1,6 +1,6 @@
 # DevOps and Site Reliability Engineering
 
-Welcome to my DevOps and SRE blog section! Here, I share my experiences and insights from working as a Site Reliability Engineer at CRED and various infrastructure projects.
+Welcome to my DevOps and SRE blog section! Here, I share my experiences and insights from working as a Site Reliability Engineer and various infrastructure projects.
 
 ## Topics Covered
 - Infrastructure as Code (IaC)

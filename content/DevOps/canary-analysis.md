@@ -1,6 +1,6 @@
 # Automated Canary Analysis with Kayenta
 
-In my role as a Site Reliability Engineer at CRED, I implemented an automated canary analysis system using Kayenta and Referee. This post details the architecture, implementation, and lessons learned from building this system.
+In my role as a Site Reliability Engineer, I implemented an automated canary analysis system using Kayenta and Referee. This post details the architecture, implementation, and lessons learned from building this system.
 
 ## What is Canary Analysis?
 
@@ -13,7 +13,7 @@ In software deployments, canary analysis involves:
 
 ## The Challenge
 
-At CRED, we needed to:
+We needed to:
 - Automate the deployment validation process
 - Reduce the risk of problematic deployments
 - Make data-driven deployment decisions
@@ -142,7 +142,7 @@ We're working on:
 
 ## Conclusion
 
-Automated canary analysis has become a crucial part of our deployment strategy at CRED. It provides confidence in our deployments while reducing risk and manual intervention. The combination of Kayenta and Referee, along with careful metric selection and threshold tuning, has enabled us to achieve safer, more reliable deployments at scale.
+Automated canary analysis has become a crucial part of our deployment strategy. It provides confidence in our deployments while reducing risk and manual intervention. The combination of Kayenta and Referee, along with careful metric selection and threshold tuning, has enabled us to achieve safer, more reliable deployments at scale.
 
 ## Resources
 

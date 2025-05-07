@@ -1,6 +1,6 @@
 # Advanced CloudFormation Techniques for Infrastructure Management
 
-At CRED, I worked extensively with CloudFormation to manage our AWS infrastructure. This post shares advanced techniques and best practices we developed for managing complex infrastructure at scale.
+I worked extensively with CloudFormation to manage our AWS infrastructure. This post shares advanced techniques and best practices we developed for managing complex infrastructure at scale.
 
 ## The Challenge
 
@@ -303,7 +303,7 @@ Our CloudFormation improvements delivered:
 
 ## Conclusion
 
-Advanced CloudFormation techniques have transformed how we manage infrastructure at CRED. By implementing these patterns and best practices, we've created a robust, secure, and maintainable infrastructure management system.
+Advanced CloudFormation techniques have transformed how we manage infrastructure. By implementing these patterns and best practices, we've created a robust, secure, and maintainable infrastructure management system.
 
 ## Resources
 

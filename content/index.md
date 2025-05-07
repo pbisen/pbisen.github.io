@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Parth!
 
-I'm a Site Reliability Engineer with a passion for building scalable systems, optimizing performance, and automating everything in sight. Currently crafting reliable infrastructure and developer experiences at CRED in Bangalore.
+I'm a Site Reliability Engineer with a passion for building scalable systems, optimizing performance, and automating everything in sight. Currently crafting reliable infrastructure and developer experiences.
 
 ## 🚀 What I Do
 

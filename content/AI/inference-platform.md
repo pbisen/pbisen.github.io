@@ -1,6 +1,6 @@
 # Building a Scalable AI Inference Platform on Kubernetes
 
-At CRED, I built an AI inference platform on Kubernetes that enabled easy deployment and management of machine learning models across the organization. This post details the architecture, implementation, and lessons learned from creating a scalable, production-grade ML serving system.
+I built an AI inference platform on Kubernetes that enabled easy deployment and management of machine learning models across the organization. This post details the architecture, implementation, and lessons learned from creating a scalable, production-grade ML serving system.
 
 ## The Challenge
 
@@ -41,7 +41,7 @@ We built a custom operator to manage model deployments:
 from kopf import on_create, on_delete
 import kubernetes as k8s
 
-@on_create('cred.ai/v1', 'mlmodels')
+
 def create_model(spec, **kwargs):
     # Create model deployment
     deployment = k8s.client.V1Deployment(
@@ -74,7 +74,6 @@ def create_model(spec, **kwargs):
 Example model deployment configuration:
 
 ```yaml
-apiVersion: cred.ai/v1
 kind: MLModel
 metadata:
   name: fraud-detection
@@ -283,7 +282,7 @@ The platform delivered significant benefits:
 
 ## Conclusion
 
-Our AI inference platform has transformed how we deploy and manage ML models at CRED. By leveraging Kubernetes and building custom tooling, we've created a robust system that enables rapid model deployment while maintaining high performance and reliability.
+Our AI inference platform has transformed how we deploy and manage ML models. By leveraging Kubernetes and building custom tooling, we've created a robust system that enables rapid model deployment while maintaining high performance and reliability.
 
 ## Resources
 

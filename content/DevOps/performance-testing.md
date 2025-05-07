@@ -1,10 +1,10 @@
 # Scalable Performance Testing with Locust
 
-At CRED, I built a scalable performance testing framework using distributed Locust nodes. This post details how we designed and implemented a system that could simulate realistic user loads and provide actionable performance insights.
+I built a scalable performance testing framework using distributed Locust nodes. This post details how we designed and implemented a system that could simulate realistic user loads and provide actionable performance insights.
 
 ## The Need for Performance Testing
 
-In a fintech application like CRED, performance is critical. We needed to:
+In a fintech application, performance is critical. We needed to:
 - Simulate real-world user behavior at scale
 - Test system performance under various load conditions
 - Identify bottlenecks before they impact users
@@ -45,7 +45,7 @@ We defined test scenarios in Python using Locust's user behavior classes:
 ```python
 from locust import HttpUser, task, between
 
-class CREDUser(HttpUser):
+class User(HttpUser):
     wait_time = between(1, 5)
     
     def on_start(self):
@@ -203,7 +203,7 @@ The framework has enabled us to:
 
 ## Conclusion
 
-Our scalable performance testing framework has become an essential tool for ensuring CRED's system reliability and performance. By leveraging Locust's capabilities and adding our own orchestration layer, we've created a powerful system that helps us maintain high performance standards while keeping testing costs under control.
+Our scalable performance testing framework has become an essential tool for ensuring system reliability and performance. By leveraging Locust's capabilities and adding our own orchestration layer, we've created a powerful system that helps us maintain high performance standards while keeping testing costs under control.
 
 ## Resources
 

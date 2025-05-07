@@ -1,6 +1,6 @@
 # IaC-Powered CI/CD Framework with Pulumi and CloudFormation
 
-At CRED, I built a developer-driven CI/CD framework using Infrastructure as Code (IaC) principles, combining the power of Pulumi and CloudFormation. This post details how we created a flexible, scalable deployment system that empowers developers while maintaining infrastructure consistency.
+I built a developer-driven CI/CD framework using Infrastructure as Code (IaC) principles, combining the power of Pulumi and CloudFormation. This post details how we created a flexible, scalable deployment system that empowers developers while maintaining infrastructure consistency.
 
 ## The Challenge
 
@@ -103,13 +103,13 @@ We created a CLI tool for developers:
 
 ```bash
 # Create new service infrastructure
-cred-infra create service \
+infra create service \
   --name payment-service \
   --type microservice \
   --template nodejs
 
 # Deploy changes
-cred-infra deploy \
+infra deploy \
   --service payment-service \
   --env production \
   --version v1.2.3
@@ -226,7 +226,7 @@ The framework delivered significant improvements:
 
 ## Conclusion
 
-Our IaC-powered CI/CD framework has transformed how we manage infrastructure and deployments at CRED. By combining Pulumi and CloudFormation with developer-friendly tools, we've created a system that maintains high standards while enabling developer productivity.
+Our IaC-powered CI/CD framework has transformed how we manage infrastructure and deployments. By combining Pulumi and CloudFormation with developer-friendly tools, we've created a system that maintains high standards while enabling developer productivity.
 
 ## Resources
 
